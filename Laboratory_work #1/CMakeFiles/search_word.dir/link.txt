@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/search_word.dir/main.c.o  -o search_word 

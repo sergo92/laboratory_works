@@ -1,0 +1,3 @@
+/home/olegovich22/brother/laba1/CMakeFiles/rebuild_cache.dir
+/home/olegovich22/brother/laba1/CMakeFiles/search_word.dir
+/home/olegovich22/brother/laba1/CMakeFiles/edit_cache.dir

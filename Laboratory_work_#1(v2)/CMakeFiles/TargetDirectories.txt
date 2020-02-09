@@ -1,0 +1,3 @@
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v2)/CMakeFiles/rebuild_cache.dir
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v2)/CMakeFiles/search_word.dir
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v2)/CMakeFiles/edit_cache.dir

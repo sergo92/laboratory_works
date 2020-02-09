@@ -1,0 +1,1 @@
+Lab work #1 dedicates to search word in the huge text.

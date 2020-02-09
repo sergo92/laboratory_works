@@ -3,14 +3,14 @@
 
  int main ()
  {
-     char buff [100];
-     char buff1 [100];
+     char word [100];
+     char text [100];
 
      //get word function
-     char *word  = get_word(buff);
+     get_word(word);
 
      //get text function
-     char *text = get_text(buff1);
+     get_text(text);
 
      //if word exists get number of symbol in the text
      int res = number_symbol(word, text);

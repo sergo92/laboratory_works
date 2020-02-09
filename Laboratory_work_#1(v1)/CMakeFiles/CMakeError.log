@@ -1,24 +1,24 @@
 Detecting C [-std=c11] compiler features failed to compile with the following output:
-Change Dir: /home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/CMakeTmp
+Change Dir: /home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8841f/fast 
-/usr/bin/make -f CMakeFiles/cmTC_8841f.dir/build.make CMakeFiles/cmTC_8841f.dir/build
-make[1]: Entering directory '/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/CMakeTmp'
-make[1]: *** No rule to make target '/home/olegovich22/brother/laboratory_works/Laboratory_work', needed by 'CMakeFiles/cmTC_8841f.dir/feature_tests.c.o'.  Stop.
-make[1]: Leaving directory '/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_8841f/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_1e814/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1e814.dir/build.make CMakeFiles/cmTC_1e814.dir/build
+make[1]: Entering directory '/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/CMakeTmp'
+make[1]: *** No rule to make target '/home/olegovich22/brother/laboratory_works/Laboratory_work_', needed by 'CMakeFiles/cmTC_1e814.dir/feature_tests.c.o'.  Stop.
+make[1]: Leaving directory '/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1e814/fast] Error 2
 
 
 
 Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
-Change Dir: /home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/CMakeTmp
+Change Dir: /home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5d5d8/fast 
-/usr/bin/make -f CMakeFiles/cmTC_5d5d8.dir/build.make CMakeFiles/cmTC_5d5d8.dir/build
-make[1]: Entering directory '/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/CMakeTmp'
-make[1]: *** No rule to make target '/home/olegovich22/brother/laboratory_works/Laboratory_work', needed by 'CMakeFiles/cmTC_5d5d8.dir/feature_tests.cxx.o'.  Stop.
-make[1]: Leaving directory '/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_5d5d8/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_796f8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_796f8.dir/build.make CMakeFiles/cmTC_796f8.dir/build
+make[1]: Entering directory '/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/CMakeTmp'
+make[1]: *** No rule to make target '/home/olegovich22/brother/laboratory_works/Laboratory_work_', needed by 'CMakeFiles/cmTC_796f8.dir/feature_tests.cxx.o'.  Stop.
+make[1]: Leaving directory '/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_796f8/fast] Error 2
 
 
 

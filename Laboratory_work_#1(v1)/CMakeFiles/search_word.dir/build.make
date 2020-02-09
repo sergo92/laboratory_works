@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)"
+CMAKE_SOURCE_DIR = "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)"
+CMAKE_BINARY_DIR = "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/search_word.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/search_word.dir/flags.make
 
 CMakeFiles/search_word.dir/main.c.o: CMakeFiles/search_word.dir/flags.make
 CMakeFiles/search_word.dir/main.c.o: main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/search_word.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search_word.dir/main.c.o   -c "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/search_word.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search_word.dir/main.c.o   -c "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/main.c"
 
 CMakeFiles/search_word.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search_word.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/main.c" > CMakeFiles/search_word.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/main.c" > CMakeFiles/search_word.dir/main.c.i
 
 CMakeFiles/search_word.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search_word.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/main.c" -o CMakeFiles/search_word.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/main.c" -o CMakeFiles/search_word.dir/main.c.s
 
 CMakeFiles/search_word.dir/fun.c.o: CMakeFiles/search_word.dir/flags.make
 CMakeFiles/search_word.dir/fun.c.o: fun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/search_word.dir/fun.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search_word.dir/fun.c.o   -c "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/fun.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/search_word.dir/fun.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search_word.dir/fun.c.o   -c "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.c"
 
 CMakeFiles/search_word.dir/fun.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search_word.dir/fun.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/fun.c" > CMakeFiles/search_word.dir/fun.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.c" > CMakeFiles/search_word.dir/fun.c.i
 
 CMakeFiles/search_word.dir/fun.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search_word.dir/fun.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/fun.c" -o CMakeFiles/search_word.dir/fun.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.c" -o CMakeFiles/search_word.dir/fun.c.s
 
 # Object files for target search_word
 search_word_OBJECTS = \
@@ -95,7 +95,7 @@ search_word: CMakeFiles/search_word.dir/main.c.o
 search_word: CMakeFiles/search_word.dir/fun.c.o
 search_word: CMakeFiles/search_word.dir/build.make
 search_word: CMakeFiles/search_word.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable search_word"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable search_word"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_word.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/search_word.dir/clean:
 .PHONY : CMakeFiles/search_word.dir/clean
 
 CMakeFiles/search_word.dir/depend:
-	cd "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/CMakeFiles/search_word.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/search_word.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/search_word.dir/depend
 

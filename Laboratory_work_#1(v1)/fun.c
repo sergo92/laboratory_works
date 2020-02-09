@@ -1,7 +1,7 @@
 #include <stdio.h>
- #include <stdlib.h>
- #include <string.h>
- #include "fun.h"
+#include <stdlib.h>
+#include <string.h>
+#include "fun.h"
 
 
  char *get_word()
@@ -71,7 +71,7 @@ int number_symbol (char *word, char *text)
      return -1;
 }
 
-void free_malloc( char *text, char *word)
+void free_malloc (char *text, char *word)
 {
 	free(word);
 	free(text);

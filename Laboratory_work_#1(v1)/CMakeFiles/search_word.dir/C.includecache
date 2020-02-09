@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/fun.h
-
-/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/main.c
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 fun.h
-/home/olegovich22/brother/laboratory_works/Laboratory_work#1(1)/fun.h
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.h
+
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.h
 

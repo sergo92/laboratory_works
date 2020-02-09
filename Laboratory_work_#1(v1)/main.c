@@ -19,7 +19,7 @@
      printf("The word \"%s\" is symbol #%d\n", word, res);
      
      //free heap
-     void free_malloc( char *text, char *word);
+     free_malloc(text, word);
 
      return 0;
 

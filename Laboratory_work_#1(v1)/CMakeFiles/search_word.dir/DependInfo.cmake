@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.c" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/search_word.dir/fun.c.o"
-  "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/main.c" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/CMakeFiles/search_word.dir/main.c.o"
+  "/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/fun.c" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/CMakeFiles/search_word.dir/fun.c.o"
+  "/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/main.c" "/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/CMakeFiles/search_word.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

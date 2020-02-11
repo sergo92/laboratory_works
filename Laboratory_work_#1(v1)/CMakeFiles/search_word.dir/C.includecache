@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.c
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/fun.c
 stdio.h
 -
 stdlib.h
@@ -14,7 +14,7 @@ stdlib.h
 string.h
 -
 fun.h
-/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.h
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/fun.h
 
-/home/olegovich22/brother/laboratory_works/Laboratory_work_#111(v1)/fun.h
+/home/olegovich22/brother/laboratory_works/Laboratory_work_#1(v1)/fun.h
 

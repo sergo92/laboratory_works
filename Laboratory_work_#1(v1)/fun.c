@@ -15,6 +15,13 @@
      do
      {
        gets(word);
+       int symbol_number = strlen(word);
+       if (symbol_number == 0)
+       {
+       	 m = 1;
+       	 printf("Please enter the word:\n");
+       }
+       	 
        for(int i = 0; i<strlen(word); i++)
        {
          if(word[i] == ' ')
@@ -35,8 +42,21 @@ char *get_text()
 {
    int max_size = 100;
    char *text = malloc(sizeof(char)* max_size);
-   printf("Please enter the text:\n");
-   gets(text);
+   
+   int m = 0;
+    do
+    {
+    	printf("Please enter the text:\n");
+    	gets(text);
+    	int symbol_number = strlen(text);
+    	
+    	if(symbol_number == 0)
+    	m = 1;
+    	
+    	else
+    	m = 0;	  
+    }
+    while (m == 1);
    return text;
 }
 
@@ -56,11 +76,10 @@ int number_symbol (char *word, char *text)
              {
                  k++;
                  j++;
-                 if (text [k] == word[word_symbols - 1] && (text[k+1] == ' ' || text[k+1] == '\0'))
-                 {
-                      //printf("The word \"%s\" is symbol #%d\n", word, i+1);
-                      return i+1;
-                 }
+                 
+                 if (text [k] == word[word_symbols - 1] && (text[k+1] == ' ' || text[k+1] == '\0' || text[k+1] == '.' || text[k+1] == ':' || text[k+1] == ',' || text[k+1] == ';'))
+                 return i+1;
+		 
              }
              else
              break;

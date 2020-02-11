@@ -4,7 +4,7 @@
 #include "fun.h"
 
 
-void *get_word(char *word)
+void get_word(char *word)
 {
      printf("Please enter the word:\n");
 
@@ -13,7 +13,14 @@ void *get_word(char *word)
      do
      {
        gets(word);
-       for(int i = 0; i<strlen(word); i++)
+       int symbol_number = strlen(word);
+       if (symbol_number == 0)
+       {
+       	 m = 1;
+       	 printf("Please enter the word:\n");
+       }	 
+       
+       for(int i = 0; i<symbol_number; i++)
        {
          if(word[i] == ' ')
          {
@@ -26,13 +33,26 @@ void *get_word(char *word)
        }
      }
      while( m == 1);
-     return word;
+     
 }
 
-void *get_text(char *text)
+void get_text(char *text)
 {
-    printf("Please enter the text:\n");
-    gets(text);
+    int m = 0;
+    do
+    {
+    	printf("Please enter the text:\n");
+    	gets(text);
+    	int symbol_number = strlen(text);
+    	
+    	if(symbol_number == 0)
+    	m = 1;
+    	
+    	else
+    	m = 0;	  
+    }
+    while (m == 1);
+    
 }
 
 int number_symbol (char *word, char *text)
@@ -51,11 +71,10 @@ int number_symbol (char *word, char *text)
              {
                  k++;
                  j++;
-                 if (text [k] == word[word_symbols - 1] && (text[k+1] == ' ' || text[k+1] == '\0'))
-                 {
-                      //printf("The word \"%s\" is symbol #%d\n", word, i+1);
-                      return i+1;
-                 }
+                 
+                 if (text [k] == word[word_symbols - 1] && (text[k+1] == ' ' || text[k+1] == '\0' || text[k+1] == '.' || text[k+1] == ':' || text[k+1] == ',' || text[k+1] == ';'))
+                 return i+1;
+                 
              }
              else
              break;

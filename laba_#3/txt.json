@@ -1,0 +1,69 @@
+{
+	"figure_array": [
+	  {
+		"square #0": {
+			"vertex1": {
+				"x" : 0,
+				"y" : 0
+			},
+			"vertex2": {
+				"x" : 0,
+				"y" : 2
+			},
+			"vertex3": {
+				"x" : 2,
+				"y" : 2
+			},
+			"vertex4": {
+				"x" : 2,
+				"y" : 0
+			}
+	  },
+		"square #1": {
+			"vertex1": {
+				"x" : 0,
+				"y" : 0
+			},
+			"vertex2": {
+				"x" : 0,
+				"y" : 2
+			},
+			"vertex3": {
+				"x" : 2,
+				"y" : 2
+			},
+			"vertex4": {
+				"x" : 2,
+				"y" : 0
+			}
+	  },
+		"square #3": {
+			"vertex1": {
+				"x" : 0,
+				"y" : 0
+			},
+			"vertex2": {
+				"x" : 0,
+				"y" : 2
+			},
+			"vertex3": {
+				"x" : 2,
+				"y" : 2
+			},
+			"vertex4": {
+				"x" : 2,
+				"y" : 0
+			}
+	  }
+	 }
+	],
+	"size": 5,
+	"current_number": 3,
+	"arr_bool": [
+	  {
+		"arr_bool#0": 1, 
+		"arr_bool#1": 1, 
+		"arr_bool#3": 1 
+	  }
+	]
+}

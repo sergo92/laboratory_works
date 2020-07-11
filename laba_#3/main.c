@@ -74,7 +74,11 @@ int main(void)
 	
 	int fig9 = insert_element_by_index(array, &ab_square, 5);
 	if (fig9 == -1)
-		printf("Lack of memory for fig9\n");			
+		printf("Lack of memory for fig9\n");
+		
+	int fig10 = insert_element_by_index(array, &ab_square, 5);
+	if (fig10 == -1)
+		printf("Lack of memory for fig10\n");					
 
 	print_arr(array);
 	

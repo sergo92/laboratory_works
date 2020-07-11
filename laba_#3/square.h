@@ -28,7 +28,7 @@ struct figure_array *create_array(int n);
 
 int add_element(struct figure_array *the_array, struct square *aa_square);
 
-int insert_element(struct figure_array *the_array, struct square *aa_square, int index);
+int insert_element_by_index(struct figure_array *the_array, struct square *aa_square, int index);
 
 void print_arr(struct figure_array *the_array);
 

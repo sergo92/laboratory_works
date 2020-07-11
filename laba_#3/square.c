@@ -3,6 +3,9 @@
 #include <stdlib.h>
 #include "square.h"
 
+const int MEMORY_PROBLEM = -1;
+const int INCORRECT_FIGURE = -2;
+const int ARRAY_OVERSIZE = -3;
 
 struct figure_array *create_array(int n)
 {
@@ -38,7 +41,7 @@ struct figure_array *create_array(int n)
 int add_element(struct figure_array *the_array, struct square *aa_square)
 {
 	if(the_array == NULL || aa_square == NULL)
-		return -1;
+		return MEMORY_PROBLEM;
 	
 	if((aa_square->vertex4.x - aa_square->vertex1.x == aa_square->vertex2.y - aa_square->vertex1.y) &&
 	   (aa_square->vertex2.y - aa_square->vertex1.y == aa_square->vertex3.x - aa_square->vertex2.x) &&
@@ -54,21 +57,29 @@ int add_element(struct figure_array *the_array, struct square *aa_square)
 					}	
 				}	
 			}
-			else
+			else{
 				printf("Array is filled. Element has not been added\n");	
+				return ARRAY_OVERSIZE;
+			}	
 		}
 		
-	else 
-		printf("Figure is not square\n");		
+	else{
+		printf("Figure is not square\n");
+		return INCORRECT_FIGURE;
+	}	
+		
+	return 0;			
 }
 
 int insert_element_by_index(struct figure_array *the_array, struct square *aa_square, int index)
 {
 	if(the_array == NULL || aa_square == NULL)
-		return -1;
+		return MEMORY_PROBLEM;
 		
-	if(the_array->size<=index)
-	   			printf("Index is more than array\n");
+	if(the_array->size<=index){
+	   	printf("Index is more than array\n");
+	   	return ARRAY_OVERSIZE;
+	}   			
 	   				
 	else{
 		if((aa_square->vertex4.x - aa_square->vertex1.x == aa_square->vertex2.y - aa_square->vertex1.y) &&
@@ -84,9 +95,13 @@ int insert_element_by_index(struct figure_array *the_array, struct square *aa_sq
 					the_array->a_square[index] = *aa_square;	
 	   		}
 		
-		else
+		else{
 			printf("Figure is not square\n");
-	}			
+			return INCORRECT_FIGURE;
+		}	
+	}
+	
+	return 0;			
 }
 
 void print_arr(struct figure_array *the_array)
@@ -192,10 +207,15 @@ void write_json(struct figure_array *the_array)
 void delete_array(struct figure_array *the_array)
 {
 	if(the_array != NULL){
-		free(the_array->a_square);
-		free(the_array->arr_bool);
-		free(the_array);
-	}	
+		if(the_array->a_square != NULL)
+			free(the_array->a_square);			
+				
+		if(the_array->arr_bool != NULL)
+			free(the_array->arr_bool);
+		 
+		free(the_array);	
+
+	}
 }
 
 

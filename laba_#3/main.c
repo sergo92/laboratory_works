@@ -87,4 +87,6 @@ int main(void)
 	printf("Current_number: %i\n", array->current_number);
 	
 	delete_array(array);
+	
+	return 0;
 }

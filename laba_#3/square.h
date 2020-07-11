@@ -1,6 +1,8 @@
 #include <stdbool.h>
 
 
+
+
 struct figure_array
 {
 	struct square *a_square;
